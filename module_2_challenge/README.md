@@ -31,8 +31,7 @@ pip install -r requirements.txt
 ```sh
 python app.py
 ```
-![usage](https://127.0.0.1)
-
+![usage](https://user-images.githubusercontent.com/25112189/165687570-e7a57eba-a243-4778-bb1c-5b37a11c59cc.gif)
 
 ---
 
