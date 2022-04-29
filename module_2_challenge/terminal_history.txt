@@ -1,0 +1,50 @@
+ 1008  grep requests *
+ 1009  grep -ri requests *
+ 1010  grep head *
+ 1011  grep -r head *
+ 1012  vim app.py
+ 1013  pipreqs .
+ 1014  pipreqs . --force
+ 1015  vim requirements.txt
+ 1016  wget "https://raw.githubusercontent.com/travispeska/cloud_enum/master/LICENSE"
+ 1017  ls -alrt
+ 1018  rm -f LICENSE
+ 1019  ls -alrt
+ 1020  cat requirements.txt
+ 1021  git stage
+ 1022  git status
+ 1023  ls -alrt
+ 1024  git add .
+ 1025  ls -lart
+ 1026  git status
+ 1027  git commit -m "completed module 2 challenge code"
+ 1028  git push
+ 1029  git add README.md
+ 1030  git commit -m "update readme"
+ 1031  git push
+ 1032  git pull
+ 1033  git merge
+ 1034  git status
+ 1035  git stage
+ 1036  git add README.md
+ 1037  git commit -m "update readme"
+ 1038  git push
+ 1039  clear
+ 1040  cd ..
+ 1041  git pull
+ 1042  mkdir module_3_challenge
+ 1043  ls -alrt
+ 1044  cd /tmp
+ 1045  git clone git@github.com:travispeska/gwu_fintech.git\ncd gwu_fintech/module_2_challenge/\npip install -r requirements.txt
+ 1046  cd ..
+ 1047  git log
+ 1048  git status
+ 1049  git log|grep -i Author
+ 1050  history
+ 1051  cd /tmp/
+ 1052  git clone git@github.com:travispeska/gwu_fintech.git\ncd gwu_fintech/module_2_challenge/\npip install -r requirements.txt\n
+ 1053  python3 app.py
+ 1054  cat output.csv
+ 1055  history 50 > terminal_history.txt
+ 1056  cat terminal_history.txt
+ 1057  vim terminal_history.txt
