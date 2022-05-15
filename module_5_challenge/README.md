@@ -19,6 +19,8 @@ For retirement planning, we use two Monte Carlo simulations to forecast potentia
 
 ## Installation
 
+This notebook requires the user to have an [Alpaca](https://alpaca.markets) API key.  
+  
 ```sh
 git clone git@github.com:travispeska/gwu_fintech.git
 cd gwu_fintech/module_5_challenge/
