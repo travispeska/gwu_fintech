@@ -1,5 +1,7 @@
 # Module 7 Challenge
 
+![7-4-challenge-image](https://user-images.githubusercontent.com/25112189/171067443-abda6b6d-a9a6-4585-bcaf-e492cb2c6039.png)
+
 ---
 
 ## Background
@@ -45,6 +47,8 @@ Open Browser > http://localhost:8888/lab/tree/etf_analyzer.ipynb
 voila etf_analyzer.ipynb
 Open Browser > http://localhost:8866/
 ```
+
+![voila](https://user-images.githubusercontent.com/25112189/171067919-741183c4-b4cf-4a8d-a44e-3e6416106f75.mp4)
 
 ---
 
