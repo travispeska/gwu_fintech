@@ -48,7 +48,8 @@ voila etf_analyzer.ipynb
 Open Browser > http://localhost:8866/
 ```
 
-![voila](https://user-images.githubusercontent.com/25112189/171067919-741183c4-b4cf-4a8d-a44e-3e6416106f75.mp4)
+![image](https://user-images.githubusercontent.com/25112189/171069115-2be1c5ad-7e27-4362-aec8-d255abc18db5.png)
+[Full Viola Demonstration](https://user-images.githubusercontent.com/25112189/171069083-a4b2c0b0-7e13-45c9-a3fe-4457c232ba75.mp4)
 
 ---
 
