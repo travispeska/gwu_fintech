@@ -1,0 +1,5 @@
+fbprophet==0.7.1
+holoviews==1.14.9
+hvplot==0.8.0
+pandas==1.4.2
+protobuf==4.21.2
