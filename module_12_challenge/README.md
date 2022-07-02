@@ -1,5 +1,7 @@
 # Module 12 Challenge
 
+![12-5-challenge-image](https://user-images.githubusercontent.com/25112189/176982903-fecf370e-3348-4585-9578-c0894d4d2f7c.png)
+
 ---
 
 ## Background
