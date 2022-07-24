@@ -12,6 +12,19 @@ The speed of these transactions gave our firm a competitive advantage early on, 
 
 ---
 
+## Tuning Questions to be Answered
+
+1. What impact resulted from increasing or decreasing the training window?
+  - 
+2. What impact resulted from increasing or decreasing either or both of the SMA windows?
+  - 
+3. Did this new model perform better or worse than the provided baseline model?
+  - 
+4. Did this new model perform better or worse than your tuned trading algorithm?\
+  - 
+
+---
+
 ## Installation
 
 ```sh
