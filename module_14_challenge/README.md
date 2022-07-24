@@ -12,16 +12,26 @@ The speed of these transactions gave our firm a competitive advantage early on, 
 
 ---
 
-## Tuning Questions to be Answered
+## Tuning Results
 
+### Tuned Model
+![tuned_model](https://user-images.githubusercontent.com/25112189/180668009-de6d72e7-aec6-4e53-873d-63576b8fad08.png)
+
+### AdaBoost Model
+![AdaBoost_model](https://user-images.githubusercontent.com/25112189/180668265-7e894de5-79f3-411c-8045-5d30661a18e3.png)
+
+### Responses
 1. What impact resulted from increasing or decreasing the training window?
-  - 
+  - By increasing the training window from three months to six months, we reveal a long-term increase in strategy returns.
 2. What impact resulted from increasing or decreasing either or both of the SMA windows?
-  - 
+  - Increasing the short window from four to 20 did not result in major changes.
+  - Decreasing the long window from 100 to 50 had significant negative results and our returns were much lower.
 3. Did this new model perform better or worse than the provided baseline model?
-  - 
-4. Did this new model perform better or worse than your tuned trading algorithm?\
-  - 
+  - A tuned model performed better than the provided baseline model.  The AdaBoost model 
+4. Did this new model perform better or worse than your tuned trading algorithm?
+  - The AdaBoost Model performed remarkably similar to the tuned model. 
+  - Recall for 1 was better on the tuned model while recall for -1 was better on the AdaBoost model.
+  - The tuned model had a higher f1 score.
 
 ---
 
