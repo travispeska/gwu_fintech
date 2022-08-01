@@ -10,10 +10,11 @@ I’ve been hired as a digital transformation consultant by one of the most prom
 ---
 
 ## Technologies
+
 1. Facebook Page: The interface which makes the Robo Advisor accessible to users
-2. AWS Lex: Creates the intent, accepts input and returns outputs
-3. AWS Lambda: The core functionality that processes input from Lex and returns results to Lex
-4. 
+2. Facebook App: The application that passes input from page to AWS
+3. AWS Lex: Creates the intent, accepts input and returns outputs
+4. AWS Lambda: The core functionality that processes input from Lex and returns results to Lex
 
 ---
 
