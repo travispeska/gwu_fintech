@@ -22,7 +22,9 @@ pip install -r requirements.txt
 ## Streamlit Application Usage
 
 ```sh
+cd gwu_fintech/module_18_challenge/
 streamlit run pychain.py
+Open Browser > http://localhost:8501
 ```
 
 ---
