@@ -33,8 +33,10 @@ Open Browser > http://localhost:8501
 https://user-images.githubusercontent.com/25112189/185032977-19f4bacf-62c4-4a7a-aeaa-0ea7987241b3.mp4
 
 ### Results
-<img width="983" alt="image" src="https://user-images.githubusercontent.com/25112189/185033087-6f764af8-efc1-4e02-b877-3702ccf55e5e.png">
-<img width="1056" alt="image" src="https://user-images.githubusercontent.com/25112189/185033136-6f200165-1a66-4d56-ab82-16849ed130e1.png">
+<p align="center">
+  <img width="1056" alt="image" src="https://user-images.githubusercontent.com/25112189/185033087-6f764af8-efc1-4e02-b877-3702ccf55e5e.png">
+  <img width="1056" alt="image" src="https://user-images.githubusercontent.com/25112189/185033136-6f200165-1a66-4d56-ab82-16849ed130e1.png">
+</p>
 
 ---
 
