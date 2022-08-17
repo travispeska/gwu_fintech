@@ -30,6 +30,8 @@ from dataclasses import dataclass
 from typing import Any, List
 from web3 import Web3
 w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
+import crypto_wallet as wallet
+
 ################################################################################
 # Step 1:
 # Import Ethereum Transaction Functions into the Fintech Finder Application
@@ -127,10 +129,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 # Create a variable named `account`. Set this variable equal to a call on the
 # `generate_account` function. This function will create the Fintech Finder
 # customer’s (in this case, your) HD wallet and Ethereum account.
-
-# @TODO:
-#  Call the `generate_account` function and save it as the variable `account`
-# YOUR CODE HERE
+account = wallet.generate_account()
 
 ##########################################
 
@@ -142,11 +141,8 @@ st.sidebar.write(account.address)
 # Define a new `st.sidebar.write` function that will display the balance of the
 # customer’s account. Inside this function, call the `get_balance` function and
 #  pass it your Ethereum `account.address`.
-
-# @TODO
-# Call `get_balance` function and pass it your account address
-# Write the returned ether balance to the sidebar
-# YOUR CODE HERE
+balance = wallet.get_balance(w3, account.address)
+st.sidebar.write(balance)
 
 ##########################################
 
@@ -232,16 +228,8 @@ st.sidebar.markdown("## Total Wage in Ether")
 # the value of the `hours` variable. Save this calculation’s output as a
 # variable named `wage`.
 # * Write the `wage` variable to the Streamlit sidebar by using `st.sidebar.write`.
-
-# @TODO
-# Calculate total `wage` for the candidate by multiplying the candidate’s hourly
-# rate from the candidate database (`candidate_database[person][3]`) by the
-# value of the `hours` variable
-# YOUR CODE HERE
-
-# @TODO
-# Write the `wage` calculation to the Streamlit sidebar
-# YOUR CODE HERE
+wage = candidate_database[person][3] * hours
+st.sidebar.write(wage)
 
 ##########################################
 # Step 2 - Part 2:
@@ -263,25 +251,20 @@ st.sidebar.markdown("## Total Wage in Ether")
 
 
 if st.sidebar.button("Send Transaction"):
-
-    # @TODO
-    # Call the `send_transaction` function and pass it 3 parameters:
-    # Your `account`, the `candidate_address`, and the `wage` as parameters
-    # Save the returned transaction hash as a variable named `transaction_hash`
-    # YOUR CODE HERE
+    transaction_hash = wallet.send_transaction(w3, account, candidate_address, wage)
 
     # Markdown for the transaction hash
     st.sidebar.markdown("#### Validated Transaction Hash")
 
     # Write the returned transaction hash to the screen
-    st.sidebar.write(transaction_hash)
+    st.sidebar.write(transaction_hash.hex())
 
     # Celebrate your successful payment
     st.balloons()
 
 # The function that starts the Streamlit application
 # Writes FinTech Finder candidates to the Streamlit page
-get_people()
+get_people(w3)
 
 ################################################################################
 # Step 3: Inspect the Transaction

@@ -1,0 +1,5 @@
+bip44==0.1.2
+python-dotenv==0.20.0
+requests==2.27.1
+streamlit==1.11.1
+web3==5.30.0
