@@ -32,10 +32,10 @@ To automate the creation of joint savings accounts, I've created a Solidity smar
 <img width="1215" alt="image" src="Execution_Results/transaction3.png">
 
 ### Transaction 4: Withdraw 5 ether into accountOne
-<img width="1215" alt="image" src="Execution_Results/transaction4.png">
+<img width="1430" alt="image" src="Execution_Results/transaction4.png">
 
 ### Transaction 5: Withdraw 10 ether into accountTwo
-<img width="1215" alt="image" src="Execution_Results/transaction5.png">
+<img width="1430" alt="image" src="Execution_Results/transaction5.png">
 
 ---
 
