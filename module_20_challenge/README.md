@@ -17,10 +17,25 @@ To automate the creation of joint savings accounts, I've created a Solidity smar
 3. Enter "https://raw.githubusercontent.com/travispeska/gwu_fintech/main/module_20_challenge/joint_savings.sol"
 4. Click "Import"
 5. Select Compiler Version 0.5.1.7+commit.d19bba13
-6. Click "Compile and Run Script"
+6. Click "Compile joint_savings.sol"
 
 ---
-## Demo
+## Transaction Demonstrations
+
+### Transaction 1: Deposit 1 ether as wei
+<img width="1215" alt="image" src="Execution_Results/transaction1.png">
+
+### Transaction 2: Deposit 10 ether as wei
+<img width="1215" alt="image" src="Execution_Results/transaction2.png">
+
+### Transaction 3: Deposit 5 ether
+<img width="1215" alt="image" src="Execution_Results/transaction3.png">
+
+### Transaction 4: Withdraw 5 ether into accountOne
+<img width="1215" alt="image" src="Execution_Results/transaction4.png">
+
+### Transaction 5: Withdraw 10 ether into accountTwo
+<img width="1215" alt="image" src="Execution_Results/transaction5.png">
 
 ---
 
