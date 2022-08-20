@@ -12,7 +12,12 @@ To automate the creation of joint savings accounts, I've created a Solidity smar
 ---
 
 ## Remix IDE 
-[Remix IDE](https://remix.ethereum.org/)
+1. Open [Remix IDE](https://remix.ethereum.org/)
+2. Click "Load From GitHub"
+3. Enter "https://raw.githubusercontent.com/travispeska/gwu_fintech/main/module_20_challenge/joint_savings.sol"
+4. Click "Import"
+5. Select Compiler Version 0.5.1.7+commit.d19bba13
+6. Click "Compile and Run Script"
 
 ---
 ## Demo
