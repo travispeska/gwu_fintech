@@ -24,10 +24,10 @@ KaseiCoin will be a fungible token that is ERC-20 compliant. I will launch a cro
 
 #### Compilation
 
-1. Compilation of KaseiCoin.sol
-![](./Evaluation Evidence/compilation1.png)
-2. Compilation of KaseiCoinCrowdsale.sol
-![](./Evaluation Evidence/compilation2.png)
+1. Compilation of KaseiCoin.sol  
+<img width="200" src="./Evaluation Evidence/compilation1.png">
+2. Compilation of KaseiCoinCrowdsale.sol. 
+<img width="200" src="./Evaluation Evidence/compilation2.png">
 
 
 ---
