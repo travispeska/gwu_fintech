@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "https://raw.githubusercontent.com/travispeska/gwu_fintech/main/module_21_challenge/KaseiCoin.sol"
+import "https://raw.githubusercontent.com/travispeska/gwu_fintech/main/module_21_challenge/KaseiCoin.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/emission/MintedCrowdsale.sol";
 
