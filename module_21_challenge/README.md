@@ -12,10 +12,23 @@ KaseiCoin will be a fungible token that is ERC-20 compliant. I will launch a cro
 ---
 
 ## Remix IDE 
-
+1. Open [Remix IDE](https://remix.ethereum.org/)
+2. Click "Load From GitHub"
+3. Enter "https://raw.githubusercontent.com/travispeska/gwu_fintech/main/module_21_challenge/KaseiCoinCrowdsale.sol"
+4. Click "Import"
+5. Select Compiler Version 0.5.1.7+commit.d19bba13
+6. Click "Compile joint_savings.sol"
 ---
 
 ## Evaluation Evidence 
+
+#### Compilation
+
+1. Compilation of KaseiCoin.sol
+![](./Evaluation Evidence/compilation1.png)
+2. Compilation of KaseiCoinCrowdsale.sol
+![](./Evaluation Evidence/compilation2.png)
+
 
 ---
 
