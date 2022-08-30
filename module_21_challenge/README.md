@@ -28,6 +28,8 @@ KaseiCoin will be a fungible token that is ERC-20 compliant. I will launch a cro
 <img width="200" src="./Evaluation Evidence/compilation1.png">
 2. Compilation of KaseiCoinCrowdsale.sol. 
 <img width="200" src="./Evaluation Evidence/compilation2.png">
+3. Contract Deployment with Ganache and Metamask
+<img width="200" src="./Evaluation Evidence/contract_deployment.mp4">
 
 
 ---
